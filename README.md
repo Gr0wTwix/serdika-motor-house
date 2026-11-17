@@ -106,11 +106,10 @@ src/
 
 ## How it was built
 
-This project was built through AI-assisted development with Claude Code. I set the brief and direction:
-a premium dealership aimed at the Bulgarian market, the visual style, the rebrand to Serdika, pricing
-based on current Bulgarian listings, and the choice of features. I reviewed the site after each round,
-including external design reviews, and decided which issues to fix and in what order. The code, content
-and testing were produced in that iterative loop.
+I led this project and used Claude Code as an AI coding assistant to implement it. I defined the
+product: a premium dealership for the Bulgarian market, its visual direction, the Serdika brand, pricing
+based on current Bulgarian listings, and the feature set. I reviewed every iteration, ran external design
+reviews, prioritised the fixes, and handled publishing to GitHub and Vercel.
 
 ## Making it real
 
