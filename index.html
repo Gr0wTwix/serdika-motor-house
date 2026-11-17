@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serdika Motor House — Curated performance and luxury cars in Sofia, Bulgaria (demo)</title>
+    <meta
+      name="description"
+      content="A demo website for Serdika Motor House, a fictional Sofia dealership of pre-owned performance and luxury cars. Browse sample inventory, book a visit or request a valuation."
+    />
+    <meta name="theme-color" content="#0b0d10" />
+    <meta property="og:title" content="Serdika Motor House (demo)" />
+    <meta property="og:description" content="Curated performance and luxury cars in Sofia, Bulgaria. Fictional dealership with sample inventory." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap"
+    />
+    <!-- Hero image preload (LCP). Keep in sync with HERO_PHOTO in src/data/site.ts -->
+    <link
+      rel="preload"
+      as="image"
+      fetchpriority="high"
+      imagesrcset="https://images.unsplash.com/photo-1740775525864-d8cc2ec1983e?auto=format&fit=crop&q=70&w=480 480w, https://images.unsplash.com/photo-1740775525864-d8cc2ec1983e?auto=format&fit=crop&q=70&w=768 768w, https://images.unsplash.com/photo-1740775525864-d8cc2ec1983e?auto=format&fit=crop&q=70&w=1080 1080w, https://images.unsplash.com/photo-1740775525864-d8cc2ec1983e?auto=format&fit=crop&q=70&w=1440 1440w, https://images.unsplash.com/photo-1740775525864-d8cc2ec1983e?auto=format&fit=crop&q=70&w=1920 1920w, https://images.unsplash.com/photo-1740775525864-d8cc2ec1983e?auto=format&fit=crop&q=70&w=2560 2560w"
+      imagesizes="100vw"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
